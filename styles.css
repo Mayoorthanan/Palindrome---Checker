@@ -85,19 +85,17 @@ body {
 
 @media (max-width: 480px) {
     body {
-        padding-top: 100px;   
+        padding-top: 80px;   
     }
     .start { 
         font-size: 1.5rem; 
     }
     #text-input { 
-        width: 100%; 
-        margin-left: 0;
+        width: 100%;
     }
     #check-btn { 
         width: 100%; 
-        margin-top: 10px; 
-        margin-left: 0; 
+        margin-top: 10px;
     }
     .main, .describe { 
         max-width: 95%; 
