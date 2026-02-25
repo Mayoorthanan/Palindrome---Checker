@@ -88,7 +88,13 @@ body {
     #text-input { width: 100%; }
     #check-btn { width: 100%; margin-top: 10px; margin-left: 0; }
     .main, .describe { max-width: 95%; }
-    .main,.describe,.start {position: relative;top:10000px;}
+     body {
+    display: flex;
+    justify-content: center;   
+    align-items: center;      
+    height: 100vh;            
+    margin: 0;
+  }
 }
 
 @media (min-width: 768px) {
