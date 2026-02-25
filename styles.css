@@ -1,102 +1,111 @@
-body{
-    margin:0;
+body {
+    margin: 0;
     background: rgb(10, 10, 35);
-    display:flex;
-    flex-direction:column;
-    align-items:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.start{
-    color:white;
-    font-weight:700;
-    font-size:2rem;
-    text-align:center;
-    margin:20px 0;
+/* Title */
+.start {
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px 0;
 }
 
-.main{
-    background-color:white;
-    width:90%;
-    max-width:450px;
-    min-height:180px;
-    border-radius:20px;
-    box-shadow:0 6px #002ead;
-    position:relative;
-    padding:20px;
+/* Main content box */
+.main {
+    background-color: white;
+    width: 90%;
+    max-width: 500px;
+    min-height: 180px;
+    border-radius: 20px;
+    box-shadow: 0 6px #002ead;
+    padding: 20px;
+    margin: 0 auto;
 }
 
-.text{
-    font-family:sans-serif;
-    font-weight:300;
-    font-size:2rem;
-    text-align:center;
+/* Description box */
+.describe {
+    background-color: #00471b;
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    margin: 30px auto 0;
+    border-radius: 20px;
 }
 
-#text-input{
-    border:0;
-    border-bottom:2px solid #5a01a7;
-    font-family:sans-serif;
-    text-align:center;
-    font-size:1rem;
-    width:60%;
-    margin-top:20px;
+/* Text styles */
+.text,
+.describe-text {
+    font-family: sans-serif;
+    text-align: center;
 }
 
-#check-btn{
-    background-color:#5a01a7;
-    color:white;
-    font-weight:500;
-    font-size:0.9rem;
-    border-radius:15px;
-    border:0;
-    height:40px;
-    width:80px;
-    margin-left:10px;
+.text {
+    font-size: 2rem;
+    font-weight: 300;
 }
 
-#result{
-    font-family:sans-serif;
-    text-align:center;
-    font-size:2rem;
-    font-weight:500;
-    margin-top:20px;
+.describe-text {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-style: italic;
 }
 
-.describe{
-    border-radius:20px;
-    background-color:#00471b;
-    width:90%;
-    max-width:450px;
-    margin-top:30px;
-    padding:20px;
+/* Inputs */
+#text-input {
+    border: 0;
+    border-bottom: 2px solid #5a01a7;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    width: 60%;
+    margin-top: 20px;
 }
 
-.describe-text{
-    color:white;
-    text-align:center;
-    font-size:2rem;
-    font-family:sans-serif;
-    font-style:italic;
-    font-weight:500;
+#check-btn {
+    background-color: #5a01a7;
+    color: white;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border-radius: 15px;
+    border: 0;
+    height: 40px;
+    width: 80px;
+    margin-left: 10px;
 }
 
+#result {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+/* ---------- RESPONSIVE BREAKPOINTS ---------- */
+
+/* Mobile (≤480px) */
 @media (max-width: 480px) {
-    .start { font-size:1.5rem; }
-    #text-input { width:100%; }
-    #check-btn { width:100%; margin-top:10px; }
+    .start { font-size: 1.5rem; }
+    #text-input { width: 100%; }
+    #check-btn { width: 100%; margin-top: 10px; margin-left: 0; }
+    .main, .describe { max-width: 95%; }
 }
 
+/* Tablet (≥768px) */
 @media (min-width: 768px) {
-    .start { font-size:2.5rem; }
-    #text-input { font-size:1.2rem; }
+    .start { font-size: 2.5rem; }
+    #text-input { font-size: 1.2rem; }
+    .main, .describe { max-width: 600px; }
 }
 
+/* PC / Desktop (≥1200px) */
 @media (min-width: 1200px) {
-    .start { font-size:3rem; }
-    .main, .describe { max-width:600px; }
-}
-
-@media (max-height: 500px) {
-    .start { font-size:1.2rem; }
-    .main { min-height:150px; }
+    .start { font-size: 3rem; }
+    .main, .describe { max-width: 700px; }
 }
