@@ -87,12 +87,13 @@ body {
     .start { font-size: 1.5rem; }
     #text-input { width: 100%; }
     #check-btn { width: 100%; margin-top: 10px; margin-left: 0; }
-    .main, .describe { max-width: 95%; }
+    .main, .describe { max-width: 100%; }
+    .main, .describe,.start{margin-top: 120px;}
      body {
     display: flex;
     justify-content: center;   
     align-items: center;      
-    height: 300vh;            
+    height: 100vh;            
     margin: 0;
   }
 }
