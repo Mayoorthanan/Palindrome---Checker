@@ -84,11 +84,24 @@ body {
 }
 
 @media (max-width: 480px) {
-    .start { font-size: 1.5rem; margin-top: 150px; }
-    #text-input { width: 100%; }
-    #check-btn { width: 100%; margin-top: 10px; margin-left: 0; }
-    .main, .describe { max-width: 100%; }
-    
+    body {
+        padding-top: 150px;   
+    }
+    .start { 
+        font-size: 1.5rem; 
+    }
+    #text-input { 
+        width: 100%; 
+        margin-left: 0;
+    }
+    #check-btn { 
+        width: 100%; 
+        margin-top: 10px; 
+        margin-left: 0; 
+    }
+    .main, .describe { 
+        max-width: 100%; 
+    }
 }
 
 @media (min-width: 768px) {
@@ -101,5 +114,5 @@ body {
 @media (min-width: 1200px) {
     .start { font-size: 3rem; }
     .main, .describe { max-width: 700px; }
-    .main,.describe,.start {position: relative;top:70px;}
+    .main,.describe,.start {position: relative;top:60px;}
 }
