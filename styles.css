@@ -91,10 +91,9 @@ body {
     .main, .describe,.start{margin-top: 120px;}
      body {
     display: flex;
-    justify-content: center;   
-    align-items: center;      
-    height: 100vh;            
-    margin: 0;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50vh;  
   }
 }
 
