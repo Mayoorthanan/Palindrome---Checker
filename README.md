@@ -94,8 +94,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 👨‍💻 Author
 Your Name: S.Mayoorthanan.
 
-* GitHub: Sivaharan Mayoorthanan
-* LinkedIn:  (https://www.linkedin.com/in/sivaharan-mayoorthanan-085302337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+* GitHub: @Sivaharan Mayoorthanan
+* LinkedIn: (https://www.linkedin.com/in/mayoorthanan-sivaharan-085302337?utm_source=share_via&utm_content=profile&utm_medium=member_android)
 
 🙏 Acknowledgments
 
